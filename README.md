@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-    <strong>Aplicativo web de todo list.</strong>
+    <strong>Aplicativo mobile de todo list.</strong>
 </p>
 
 <p align="center">
@@ -51,17 +51,10 @@ Todo App foi criado para resolução do desafio do curso Ignite (trilha atualiza
 
 ## 🎨 Layout
 
-### Desktop
-
-<p align="left"> 
-  <img src="./.github/desktop-screenshot.png" width="70%"">
-</p>
-
 ### Mobile
 
 <p align="left">       
-  <img src="./.github/mobile-screenshot-1.png" width="35%">
-  <img src="./.github/mobile-screenshot-2.png" width="35%">
+  <img src="https://raw.githubusercontent.com/weslleson22/Imagens-project/main/React-Native/TodoList.png" width="70%">
 </p>
 
 ## 🔨 Tecnologias utilizadas
@@ -89,9 +82,9 @@ cd ToDoList
 npm install
 
 # Execute a aplicação
-npm run dev
+npx expo start
 
-# O servidor inciará na porta:3000 - acesse http://localhost:3000
+
 ```
 
 
