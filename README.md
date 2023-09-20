@@ -23,7 +23,7 @@
 </p>
 
 <h4 align="center"> 
-	🚧  Projeto concluído 🚀 🚧
+	🚧  Projeto concluído OK 🚀 🚧
 </h4>
 
 ## 💻 Sobre o projeto
