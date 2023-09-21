@@ -13,9 +13,11 @@ export function Home() {
         
 
         <View style={styles.form}>
-        <TextInput style={styles.input}/>
+        <TextInput style={styles.input}
+        placeholder="Adicione uma nova tarefa"
+        placeholderTextColor="#6B6B6B"/>
         <TouchableOpacity style={styles.button}>
-        <Ionicons name="md-add-circle-outline" size={24} color="#FFF" />
+            <Ionicons name="md-add-circle-outline" size={24} color="#FFF" />
             
         </TouchableOpacity>
        

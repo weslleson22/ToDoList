@@ -28,7 +28,7 @@
 
 ## 💻 Sobre o projeto
 
-Todo App foi criado para resolução do desafio do curso Ignite (trilha atualizada) da Rocketseat. Essa aplicação apesar de simples é um excelente exemplo para praticar o desenvolvimento de apps CRUD (Create, Read, Update, Delete).
+Todo App foi criado para resolução do desafio do curso Ignite (trilha atualizada) da Rocketseat. Nesse desafio, você vai desenvolver uma aplicação de controle de tarefas no estilo to-do list, que contém as seguintes funcionalidades:
 
 <p align="center">
   <img src=".github/app-preview.gif">
@@ -37,16 +37,17 @@ Todo App foi criado para resolução do desafio do curso Ignite (trilha atualiza
 
 ## ☑ Funcionalidades
 
-- [x] Inserir tarefas
-  - [x] Inserção com enter
+- [x] Adicionar uma nova tarefa
+  - [x] Marcar e desmarcar uma tarefa como concluída
   - [x] Verificação de campo vazio
-- [x] Alterar estado da tarefa
-  - [x] Marcar como concluído
-  - [x] Apagar tarefa
-- [x] Responsividade em telas menores
-  - [x] Redução do tamanho de fonte
-  - [x] Redução do tamanho de elementos
-- [x] Navegação total por teclado
+- [x] Remover uma tarefa da listagem
+  - [x]Mostrar o progresso de conclusão das tarefas
+  Apesar de serem poucas funcionalidades, você vai precisar relembrar conceitos como:
+  - [x] Estados
+- [x] Imutabilidade do estado
+  - [x] Listas e chaves no React Native
+  - [x] Propriedades
+- [x]Componentização
 
 
 ## 🎨 Layout
@@ -61,12 +62,10 @@ Todo App foi criado para resolução do desafio do curso Ignite (trilha atualiza
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- **[ReactJS](https://reactjs.org/)**
+- **[React Native](https://docs.expo.dev/)**
 - **[TypeScript](https://www.typescriptlang.org/)**
-- **[Sass](https://sass-lang.com/)**
-- **[Vite](https://vitejs.dev/)**
 
-> Veja o arquivo [package.json](https://github.com/mateusabelli/ignite-todo-app/blob/main/package.json)
+
 
 
 ## 🚀 Instalação e uso
@@ -98,4 +97,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE.md) pa
 
 ---
 
-Feito com 💜 por [Mateus Abelli](https://github.com/mateusabelli)
+Feito com 💜 por [Wesleson Souza](https://github.com/weslleson22)
