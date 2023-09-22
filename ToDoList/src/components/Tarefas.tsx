@@ -6,6 +6,7 @@ import { AntDesign } from '@expo/vector-icons';
     onRemove:() => void
 
     }
+
  
 export function Tarefas({name, onRemove}: Props){
     return(
@@ -15,7 +16,8 @@ export function Tarefas({name, onRemove}: Props){
             </Text>
         
         <TouchableOpacity style={styles.button} 
-       
+               testID="add-new-task-button"
+               activeOpacity={0.7}
         onPress={onRemove}>
           
           <AntDesign name="delete" size={24} color="#808080" />

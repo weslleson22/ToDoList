@@ -13,12 +13,12 @@ export const styles = StyleSheet.create({
       marginTop: 28
     },
     eventDate:{
-      color: '#6B6B6B'
+      color: '#333333'
     },
     input: {
         flex: 1,
         height: 56,
-        backgroundColor: '#1F1E25',
+        backgroundColor: '#333333',
         borderRadius: 5,
         color: '#FFF',
         padding: 16,
@@ -48,7 +48,7 @@ export const styles = StyleSheet.create({
       marginBottom: 42
     },
     listEmptyText:{
-      color: '#6B6B6B',
+      color: '#333333',
       fontSize: 14,
       textAlign: 'center',
       fontWeight: 'bold'
@@ -69,7 +69,7 @@ export const styles = StyleSheet.create({
         height: 100, // Ajuste o tamanho conforme necessário
       },
       totalTarefas: {
-        textAlign: 'center',
+        textAlign: 'left',
         fontSize: 16,
         color: '#1E6F9F',
         marginBottom: 10,
@@ -80,5 +80,30 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         marginVertical: 8,
         // Outros estilos que você deseja aplicar
+      },
+      
+      circleContainer: {
+        flexDirection: 'row',
+        alignItems: 'center',
+      },
+      
+      circle: {
+        width: 20, // Ajuste o tamanho do círculo conforme necessário
+        height: 15, // Ajuste o tamanho do círculo conforme necessário
+        borderRadius: 20, // Metade da largura/altura para fazer um círculo
+        backgroundColor: '#333333', // Cor do círculo
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginLeft: 5,
+        marginBottom:9// Espaçamento entre o texto e o círculo
+      },
+      
+      circleNumber: {
+        color: '#FFF', // Cor do número dentro do círculo
+        fontSize:10, // Tamanho da fonte do número
+        fontWeight: 'bold', // Peso da fonte
       }
+      
+      
+      
   })
