@@ -48,9 +48,10 @@ export const styles = StyleSheet.create({
       marginBottom: 42
     },
     listEmptyText:{
-      color: "#FFF",
+      color: '#6B6B6B',
       fontSize: 14,
-      textAlign: 'center'
+      textAlign: 'center',
+      fontWeight: 'bold'
     }, 
     black: {
         backgroundColor: "#0D0D0D",
@@ -66,5 +67,18 @@ export const styles = StyleSheet.create({
         resizeMode: "contain",
         width: 100, // Ajuste o tamanho conforme necessário
         height: 100, // Ajuste o tamanho conforme necessário
+      },
+      totalTarefas: {
+        textAlign: 'center',
+        fontSize: 16,
+        color: '#1E6F9F',
+        marginBottom: 10,
+        fontWeight: 'bold'
+      },
+      tarefaContainer: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        marginVertical: 8,
+        // Outros estilos que você deseja aplicar
       }
   })

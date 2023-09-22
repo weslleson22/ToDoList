@@ -41,14 +41,14 @@ Todo App foi criado para resolução do desafio do curso Ignite (trilha atualiza
 - [x] Marcar e desmarcar uma tarefa como concluída
 - [x] Verificação de campo vazio
 - [x] Remover uma tarefa da listagem
-- [x]Mostrar o progresso de conclusão das tarefas
+- [x] Mostrar o progresso de conclusão das tarefas
 
 ## ☑ Conceitos Aplicados:
 - [x] Estados
 - [x] Imutabilidade do estado
 - [x] Listas e chaves no React Native
 - [x] Propriedades
-- [x]Componentização
+- [x] Componentização
 
 
 ## 🎨 Layout
