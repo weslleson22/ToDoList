@@ -7,13 +7,14 @@ export const styles = StyleSheet.create({
         borderRadius: 5,
         flexDirection: 'row',
         alignItemse:  'center',
-        marginBottom: 10
+        marginBottom: 10,
+        
     },
     name:{
         flex:1,
         fontSize: 16,
         color: "#FFF",
-        marginLeft: 16,
+        
         marginTop: 16
         
     },
@@ -47,6 +48,22 @@ export const styles = StyleSheet.create({
       concluidaButton: {
         // Estilos específicos do botão de marcar como concluído
       },
+      listItemContainer: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        // Adicione qualquer outro estilo necessário aqui
+      },
+      checkBox:{
+        width: 56,
+        height: 56,
+        marginRight: 4,
+        borderRadius: 5,
+     
+        alignItems: 'center',
+        justifyContent: 'center'
+      },
+      
+      
       
     
 

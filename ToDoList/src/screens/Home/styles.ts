@@ -48,10 +48,11 @@ export const styles = StyleSheet.create({
       marginBottom: 42
     },
     listEmptyText:{
-      color: '#333333',
+      color: '#808080',
       fontSize: 14,
       textAlign: 'center',
-      fontWeight: 'bold'
+      fontWeight: 'bold',
+      alignItems: "center" 
     }, 
     black: {
         backgroundColor: "#0D0D0D",
@@ -70,8 +71,16 @@ export const styles = StyleSheet.create({
       },
       totalTarefas: {
         textAlign: 'left',
-        fontSize: 16,
+        fontSize: 14,
         color: '#1E6F9F',
+        marginBottom: 10,
+        fontWeight: 'bold'
+      },
+      totalTarefas2: {
+        textAlign: 'left',
+        fontSize: 14,
+        
+        color: '#5E60CE',
         marginBottom: 10,
         fontWeight: 'bold'
       },
@@ -88,8 +97,8 @@ export const styles = StyleSheet.create({
       },
       
       circle: {
-        width: 20, // Ajuste o tamanho do círculo conforme necessário
-        height: 15, // Ajuste o tamanho do círculo conforme necessário
+        width: 25, // Ajuste o tamanho do círculo conforme necessário
+        height: 19, // Ajuste o tamanho do círculo conforme necessário
         borderRadius: 20, // Metade da largura/altura para fazer um círculo
         backgroundColor: '#333333', // Cor do círculo
         justifyContent: 'center',
@@ -100,9 +109,39 @@ export const styles = StyleSheet.create({
       
       circleNumber: {
         color: '#FFF', // Cor do número dentro do círculo
-        fontSize:10, // Tamanho da fonte do número
+        fontSize:14, // Tamanho da fonte do número
         fontWeight: 'bold', // Peso da fonte
-      }
+      },
+      listItemContainer: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        marginVertical:10
+        // Adicione qualquer outro estilo necessário aqui
+      },
+      
+    totalContainer: {
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      marginBottom: 10,
+      paddingHorizontal: 20,
+  },
+  
+  totalSection: {
+      alignItems: 'center',
+      flexDirection: 'row'
+  },
+  form2: {
+    flexDirection: 'row', // Coloca os elementos na mesma linha
+    justifyContent: 'space-between', // Distribui o espaço entre os elementos
+    alignItems: 'center', // Alinha os elementos verticalmente
+    marginBottom: 10,
+    paddingHorizontal: 20,
+  },totalTarefasCount: {
+    color: 'red', // ou a cor desejada
+    fontWeight: 'bold', // ou outros estilos que você desejar
+  },
+  
+  
       
       
       
